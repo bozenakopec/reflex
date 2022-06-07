@@ -1,0 +1,72 @@
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="styles.css" type="text/css" rel="stylesheet"/>
+		
+	</head>
+
+<body>
+
+    <div class="main">
+	 
+        <div class="header">
+	
+	</div>
+
+	<div class="navigation">
+        <h2> R  E  F  L  E  K  S  O  M  I  E  R  Z  A  C  Z  </h2>
+		<p></p>
+        <h2>klikaj w kolory i zmierz czas - sprawdź swój refleks</h2>
+		<p></p>
+    </div>
+
+
+
+    <div class="canvas-parent">
+        <canvas id="myCanvas" width="200" height="100" >
+		</canvas>
+    </div>
+    <div class="score">
+        <div class="section-1">
+			<button id="start" type="button">START</button>
+			<!-- <button id="stop" type="button">STOP</button> -->
+		</div>
+		<div class="section-1 bialeTlo">
+			<label>Liczba prób</label><input type="number" value="5" id="liczbaProb">
+			<label>Tryb gry</label>
+			<select id="trybGry">
+				<option value="myszka">MYSZKA</option>
+				<option value="klawiatura" >KLAWISZ Z</option>
+			</select>
+			<!-- <button id="stop" type="button">STOP</button> -->
+		</div>
+		<div class="section-2">
+			<p>NAJLEPSZY WYNIK:</p>
+			<p id="czasBest">NO TIME</p>
+        </div>
+        <div class="section-2">
+			<p>Twój czas :</p>
+			<p id="time-text">NO TIME</p>
+        </div>
+		<div class="section-2">
+			<p>Najlepszy czas:</p>
+			<p id="czasMin">NO TIME</p>
+        </div>
+		<div class="section-2">
+			<p>Najgorszy czas:</p>
+			<p id="czasMax">NO TIME</p>
+        </div>
+		<div class="section-2">
+			<p>Średni czas:</p>
+			<p id="czasSre">NO TIME</p>
+        </div>
+    </div>
+   
+		
+
+</body>
+<script src="plik.js"></script>
+
+</html>
